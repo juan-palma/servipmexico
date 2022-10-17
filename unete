@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+	<head itemscope itemtype="https://schema.org/Person" prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# profile: https://ogp.me/ns/profile#">
+		<meta charset="utf-8" />
+		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="viewport" content="width=device-width, user-scalable=yes, minimum-scale=1.0, maximum-scale=3.0, initial-scale=1.0" />
+
+		
+		<meta http-equiv="Content-Encoding" content="gzip" />
+		<meta http-equiv="Accept-Encoding" content="gzip, deflate" />
+				
+		<link rel="shortcut icon" href="favicon.ico?v1" />
+		<link rel="icon" href="favicon.ico?v1" />
+		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+				
+		<title>serVip</title>
+		<meta name="description" content="DESCRIPCION"></meta>
+
+					
+		<meta name="dcterms.audience" content="Global" />
+		<meta name="rating" content="General" />
+		
+		
+		<link rel="stylesheet" href="assets/css/reset-sanatize-normalize-boilerplate-min.css" as="style" />
+		<link rel="stylesheet" id="cssMain" href="assets/css/main.css" as="style" />
+		<!--[if lte IE 8]> <link rel="stylesheet" href="assets/css/resetIE.css" /> <![endif]-->
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="preconnect" href="https://www.googletagmanager.com">
+
+		<script defer data-main="assets/js/owner/main" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"
+			integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg=="
+			crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		
+		
+		<meta itemprop="name" content="TITULO" />
+		<meta itemprop="description" content="DESCRIPCION" />
+		<meta itemprop="image" content="SITIO-WEB/assets/img/facebook_web_img_article.jpg" />
+		
+		<meta property="og:type" content="WEBSITE" />
+		<meta property="og:url" content="SITIO-WEB" />
+		<meta property="og:site_name" content="TITULO" />
+		<meta property="fb:app_id" content="ID-FACEBOOK-APP" />
+				
+		<meta property="og:title" content="TITULO" />
+		<meta property="og:description" content="DESCRIPCION" />
+		<meta property="og:image" content="SITIO-WEB/assets/img/facebook_web_img_article.jpg" />
+		<meta property="og:image:type" content="image/jpeg" />
+		
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@TU-USUARIO-TWITER" />
+		<meta name="twitter:title" content="TITULO" />
+		<meta name="twitter:description" content="DESCRIPCION" />
+		<meta name="twitter:image:src" content="SITIO-WEB/assets/img/facebook_web_img_article.jpg" />
+		<meta name="twitter:domain" content="TU-DOMINIO" />
+		
+		<meta name="author" content="Juan Palma - ID.A libre">
+		<link type="text/plain" rel="author" href="humans.txt" />
+		
+	</head>
+	<body id="fondo_body" inputmode="text">
+
+		<!-- Tu codigo aqui... -->
+		<!-- Codigo para el menu. -->
+		<div id="home_intro" class="full">
+			<div class="full slide" id="nav">
+				<div class="box">
+					<nav id="menuBox">
+						<div id="logo">
+							<img src="assets/img/servip-logo-azul.svg" alt="Bienvenidos" width="240" height="36" >
+						</div>
+						<ul id="menu" class="hide">
+							<li class="activo">Servicios</li>
+							<li><a href="./unete.html">Únete</a></li>
+							<li>Nosotros</li>
+							<li>Contacto</li>
+						</ul>
+						<div id="btnMenuMobile">
+							<div class="btnMenuIcon">
+								
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+
+			<div>
+				<div class="col2">
+					<h2>
+						<span class="colorSecundario">Sabemos que somos buenos porque</span> nuestro personal es asombroso
+					</h2>
+				</div>
+				<div class="col2">
+					<img src="assets/img/construir.png" alt="crezcamos juntos" width="393" height="364">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="full" id="construir">
+			<div class="full inBack">
+				
+			</div>
+
+			<div class="box">
+				<div class="col2">
+					<img src="assets/img/construir.png" alt="crezcamos juntos" width="393" height="364">
+				</div>
+				<div class="col2">
+					<h2>
+						CONSIGUE EMPLEO<br />
+						CON NOSOTROS Y<br />
+						CREZCAMOS JUNTOS<br />
+					</h2>
+					<p>
+						Nuestra empresa crece desde adentro, promoviendo y recompensando el desempeño de nuestro personal.
+					</p>
+					<ul>
+						<li>Desarrollamos una saludable pasión por ganar.</li>
+						<li>La capacitación es constante.</li>
+						<li>Te motivamos para lograr tus objetivos ($$$).</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="full" id="unete_contacto">
+			<div class="full inBack">
+				<img src="assets/img/home_contacto_fondo.png" alt="contactanos" width="575" height="309">
+			</div>
+
+			<div class="box">
+				<h2>
+					Hagamos que suceda.<br />
+					Hagamos equipo.
+				</h2>
+				<div class="fullFlexRow">
+					<div class="col2">
+						<h3>
+							¿Te interesa tenernos como
+							aliado de tu negocio?
+						</h3>
+						<div class="btn" id="btnContacto1">CONTÁCTANOS</div>
+					</div>
+					<div class="col2">
+						<h3>
+							¿Deseas ser parte de nuestro
+							equipo de trabajo?
+						</h3>
+						<div class="btn" id="btnContacto2">CONTÁCTANOS</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<footer class="full" id="footer">
+			<div class="box">
+				<div class="col2">
+					<img src="assets/img/logo-serVIP-call-center-morado.svg" alt="Logo serVip" width="240" height="44" >
+				</div>
+				<div class="col2">
+					<ul id="menu">
+						<li>Servicios</li>
+						<li>Únete</li>
+						<li>Nosotros</li>
+						<li>Contacto</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr />
+
+			<div class="box" id="redes">
+				<a href="tel:+525589692157" class="boxRedes">
+					<img src="assets/img/icono_redes_tel.svg" alt="telefono" width="28" height="28" >
+					<span>55 8969.2157</span>
+				</a>
+				<a href="https://www.facebook.com/servipcall" class="boxRedes">
+					<img src="assets/img/icono_redes_facebook.svg" alt="facebook" width="28" height="28" >
+					<span>@Servip</span>
+				</a>
+			</div>
+		</footer>
+
+
+		<!-- En construccion -->
+		<!-- <div class="full" id="construccion">
+			<div class="wide">
+				<img src="assets/img/construccion.png" alt="en construccion" width="1024" height="300px">
+				<h2>disponible en el 2022</h2>
+			</div>
+
+			<div class="box">
+				
+			</div>
+		</div> -->
+
+
+	</body>
+</html>

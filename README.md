@@ -1,17 +1,21 @@
-Juan Palma - Porfolio (Portafolio)
+Ser Vip
 ===================
+Hacemos que suceda
 
-![Juan Palma](assets/img/facebook_web_img_article.jpg)
+![Ser Vip](assets/img/facebook_web_img_article.jpg)
 ### Ver el sitio web:
-https://juan-palma.idalibre.com
+https://servipmexico.com
 
-Quién es Juan Palma, este es mi porfolio (portafolio), podras conocer un poco de mi trabajo, mis capacidades, formación, hobbies y más.
+Proyecto sitio web para cliente Ser Vip
 
-Un toque personal
+Rubro del cliente
 -----------------
-El sitio cuenta con algunas animaciones propias, y con algunas funciones adicionales para darle un toque personal y para seguir divirtiendonos y aprender el proceso. 
+Consultoria.
 
-espero que les guste :)
+
+
+
+
 
 
 
