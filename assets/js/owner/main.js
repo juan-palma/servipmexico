@@ -103,11 +103,14 @@ function sliderRun(slider){
 function cambioSliderSize(){
 	setTimeout(function(){
 		const winSize = window.innerWidth;
-		if(winSize <= 860){
-			document.getElementById('slideServiHome').setAttribute('data-show', 2);
-		} else{
-			document.getElementById('slideServiHome').setAttribute('data-show', 4);
+		if(document.getElementById('slideServiHome')){
+			if(winSize <= 860){
+				document.getElementById('slideServiHome').setAttribute('data-show', 2);
+			} else{
+				document.getElementById('slideServiHome').setAttribute('data-show', 4);
+			}
 		}
+		
 
 		sliders.forEach( s => {
 			if(s.getAttribute('data-show')){
@@ -123,6 +126,27 @@ function cambioSliderSize(){
 }
 
 
+function tarjetasRun(){
+	const tarjetas = document.querySelectorAll('.tarjeta');
+	tarjetas.forEach(function(t){
+		t.addEventListener('click', function(e){
+			this.classList.toggle('activo');
+		})
+	})
+}
+
+
+
+function acordeonRun() {
+	const acordeones = document.querySelectorAll('.acordeon');
+	acordeones.forEach(function(a){
+		a.addEventListener('click', function(e){
+			this.classList.toggle('activo');
+		})
+	})
+}
+
+
 
 
 
@@ -135,6 +159,12 @@ function iniciar() {
 		}
 	}
 
+	if(filtro == "nosotros"){
+		tarjetasRun();
+	}
+
+	
+
 	sliders = document.querySelectorAll('.boxSliders');
 	sliders.forEach( s => sliderRun(s) );
 	window.addEventListener('resize', cambioSliderSize);
@@ -146,7 +176,8 @@ function iniciar() {
 			this.classList.toggle('close');
 		});
 	
-
+	
+		acordeonRun();
 }
 
 

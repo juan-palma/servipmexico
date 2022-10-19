@@ -981,9 +981,8 @@ footer{
 				transform-style: preserve-3d;
   				transition: transform 0.8s cubic-bezier(0.26, 0.16, 0.26, 1.08) 0s;
 			}
-			#tarjetasBox .tarjeta:hover .giro {
+			#tarjetasBox .tarjeta.activo .giro {
 				transform: rotateY(180deg);
-				
 			}
 				#tarjetasBox .tarjeta .frente {
 					width: 100%;
@@ -1000,6 +999,7 @@ footer{
 					border-radius: 20px;
 					overflow: hidden;
 					backface-visibility: hidden;
+					transform: rotateY( 180deg);
 				}
 					#tarjetasBox .tarjeta .frente img {
 						margin-bottom: 40px;
@@ -1008,12 +1008,10 @@ footer{
 					width: 100%;
 					height: 100%;
 					background-color: rebeccapurple;
-					backface-visibility: hidden;
-					transform: rotateY( 180deg);
 					position: absolute;
 					border-radius: 20px;
 					overflow: hidden;
-					
+					backface-visibility: hidden;
 				}
 					#tarjetasBox .tarjeta .vuelta img {
 						width: 102%;
@@ -1066,6 +1064,180 @@ footer{
 		}
 		.funtamento:last-child {
 			background-color: var(--colorSecundario);
+		}
+
+
+
+
+
+
+
+
+/* Estilos para la seccion de Contacto */
+#contacto_intro {
+	background-color: var(--colorSecundario);
+	background-image: url(../img/contacto_intro_fondo.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	padding-top: calc(var(--margenGlobal) * 1.4);
+}
+	#contacto_intro > .box {
+		padding: calc(var(--margenGlobal) * 2.6);
+	}
+		#contacto_intro > .box h2 {
+			font-weight: 700;
+			font-size: 178%;
+			color: #fff;
+			text-align: center;
+		}
+
+
+#mapaBox .box {
+	grid-gap: 40px;
+	align-items: flex-end;
+}
+	#mapaBox .box > div {
+		flex: 1 1 auto;
+	}
+		#mapa iframe {
+			max-width: 100%;
+		}
+		#dir {
+			border-bottom: 1px solid;
+			border-top: 1px solid;
+			padding: 20px 0;
+		}
+
+#datos .box{
+	grid-gap: 40px;
+}
+	#datos .col2{
+		min-width:inherit;
+		max-width:inherit;
+		background-color: var(--colorPrincipal);
+		padding: 36px 60px;
+		color: #fff;
+		border-radius: 16px;
+		overflow: hidden;
+	}
+	#datos .col2:last-child {
+		background-color: var(--colorSecundario);
+	}
+		#datos .col2 h4 {
+			text-align: center;
+			margin-bottom: 32px;
+			color: #fff;
+			position: relative;
+		}
+		#datos .col2 p {
+			position: relative;
+		}
+		#datos .col2 img {
+			width: 104%;
+			height: 104%;
+			display: block;
+			position: absolute;
+			left: -2%;
+			top: -2%;
+			object-fit: cover;
+		}
+
+
+
+
+
+
+
+
+#abanico .box{
+	flex-direction: column;
+	align-items: flex-start;
+}
+	#abanico h2 {
+		font-weight: 700;
+		color: var(--colorPrincipal);
+	}
+#servicios .box {
+	flex-direction: column;
+	padding-top: 0px;
+}
+	.acordeon {
+		width: 100%;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		border: 1px solid #ddd;
+		border-bottom: 0px none;
+	}
+	.acordeon:last-child{
+		border-bottom: 1px solid #ddd;
+	}
+		.acordeon .titulo {
+			width: 100%;
+			padding: 12px 24px;
+			background-color: #fff;
+			transition: all 0.2s ease-in-out;
+			cursor: pointer;
+		}
+		.acordeon .titulo:hover{
+			background-color: #f6f6f6;
+		}
+		.acordeon.activo .titulo{
+			background-color: var(--colorSecundario);
+			color: #fff;
+		}
+			.acordeon .titulo:after {
+				content: "+";
+				position: absolute;
+				right: 24px;
+				font-size: 126%;
+				line-height: 1;
+				font-weight: 600;
+				transition: all 0.2s ease-in-out;
+			}
+			.acordeon.activo .titulo:after{
+				content: "-";
+				color: #fff;
+			}
+		.acordeon .contenido {
+			width: 100%;
+			max-height: 0px;
+			transition: all 0.2s ease-in-out;
+			overflow: hidden;
+		}
+		.acordeon.activo .contenido{
+			max-height:400px;
+		}
+			.acordeon .contenido .interno{
+				padding: 16px 24px 40px;
+			}
+				.acordeon .contenido .interno h3 {
+					font-weight: 600;
+				}
+				.acordeon .contenido .interno p {
+					font-size: 92%;
+					color: #000;
+				}
+
+
+#home_contacto.servi .box{
+	text-align: center;
+	color: #fff;
+	justify-content: center;
+}
+	#home_contacto.servi h2{
+		margin-left: inherit;
+	}
+	#home_contacto.servi .box .fullFlexRow{
+		text-align: center;
+		color: #fff;
+		justify-content: center;
+	}
+		#home_contacto.servi .box .fullFlexRow h3{
+			color: #fff;
 		}
 
 
@@ -1502,6 +1674,23 @@ footer{
 		.funtamento {
 			flex-direction: column;
 		}
+
+
+
+
+	#abanico h2 {
+		margin-top: 58px;
+	}
+		.acordeon.activo .contenido {
+			max-height: 522px;
+		}
+			.acordeon .contenido .interno h3 {
+				font-size: 93%;
+				line-height: 1.2;
+			}
+			.acordeon .contenido .interno p {
+				font-size: 78%;
+			}
 	
 }
 
