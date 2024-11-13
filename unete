@@ -14,8 +14,8 @@
 		<link rel="icon" href="favicon.ico?v1" />
 		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 				
-		<title>serVip</title>
-		<meta name="description" content="DESCRIPCION"></meta>
+		<title>serVip - Aviso de Privacidad</title>
+		<meta name="description" content="Aviso de Privacidad"></meta>
 
 					
 		<meta name="dcterms.audience" content="Global" />
@@ -34,24 +34,24 @@
 			crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		
 		
-		<meta itemprop="name" content="TITULO" />
-		<meta itemprop="description" content="DESCRIPCION" />
+		<meta itemprop="name" content="serVip - Aviso de Privacidad" />
+		<meta itemprop="description" content="Aviso de Privacidad" />
 		<meta itemprop="image" content="SITIO-WEB/assets/img/facebook_web_img_article.jpg" />
 		
 		<meta property="og:type" content="WEBSITE" />
 		<meta property="og:url" content="SITIO-WEB" />
-		<meta property="og:site_name" content="TITULO" />
+		<meta property="og:site_name" content="serVip - Aviso de Privacidad" />
 		<meta property="fb:app_id" content="ID-FACEBOOK-APP" />
 				
-		<meta property="og:title" content="TITULO" />
-		<meta property="og:description" content="DESCRIPCION" />
+		<meta property="og:title" content="serVip - Aviso de Privacidad" />
+		<meta property="og:description" content="Aviso de Privacidad" />
 		<meta property="og:image" content="SITIO-WEB/assets/img/facebook_web_img_article.jpg" />
 		<meta property="og:image:type" content="image/jpeg" />
 		
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:site" content="@TU-USUARIO-TWITER" />
-		<meta name="twitter:title" content="TITULO" />
-		<meta name="twitter:description" content="DESCRIPCION" />
+		<meta name="twitter:title" content="serVip - Aviso de Privacidad" />
+		<meta name="twitter:description" content="Aviso de Privacidad" />
 		<meta name="twitter:image:src" content="SITIO-WEB/assets/img/facebook_web_img_article.jpg" />
 		<meta name="twitter:domain" content="TU-DOMINIO" />
 		
